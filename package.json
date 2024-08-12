@@ -1,0 +1,24 @@
+{
+  "name": "@sevdesk/supernova-styles-exporter",
+  "version": "1.0.0",
+  "description": "Custom supernova exporter for SCSS tokens",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --mode=development --watch",
+    "build": "npx webpack --mode=production"
+  },
+  "author": "Phoenix | CoreTex | sevDesk",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@supernovaio/sdk-exporters": "latest",
+    "@supernovaio/export-helpers": "latest"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "ts-loader": "^7.0.5",
+    "typescript": "^5.2.2",
+    "webpack": "5.88.2",
+    "webpack-cli": "^5.1.4",
+    "terser-webpack-plugin": "5.3.9"
+  }
+}
