@@ -46,6 +46,9 @@ This exporter offers several configuration options accessible through the Supern
 
 This exporter assumes a basic understanding of SCSS variables and mixins.
 
+<img src="./icon.png" alt="Supernova Logo" style="max-width:100%;">
+
+
 For more advanced customization options, refer to the Supernova documentation on building custom exporters ([https://github.com/Supernova-Studio/exporter-documentation](https://github.com/Supernova-Studio/exporter-documentation)).
 
 ## Contributing
