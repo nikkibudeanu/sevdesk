@@ -8,7 +8,9 @@ import {
 } from '@supernovaio/sdk-exporters';
 import { ExporterConfiguration } from '../config';
 import { createStylesContent } from './content/content';
+import icon from './icon.png';
 
+export { icon };
 /**
  * Export entrypoint.
  * When running `export` through extensions or pipelines, this function will be called.
